@@ -1,0 +1,6 @@
+SELECT Red, Tipo, 
+       YEAR(STR_TO_DATE(Fecha, '%d/%m/%Y')) AS Año, 
+       MONTH(STR_TO_DATE(Fecha, '%d/%m/%Y')) AS Mes, 
+       SUM(Cant_Casos) AS Cant_Casos
+FROM df_casos_union
+GROUP BY Red, Tipo, Año, Mes;
