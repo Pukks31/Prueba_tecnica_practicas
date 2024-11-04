@@ -1,0 +1,14 @@
+Git init 
+Este comando inicializa un repositorio local en la carpeta actual
+
+Git add .
+Este comando añade todos los archivos y carpetas de la carpeta actual al área de preparación, preparándolos para hacer el commit.
+
+Git commit -m “Ejercicios 1, 2 y 3”
+Este comando realiza un commit, es decir, guarda el estado actual del proyecto en el repositorio local con un mensaje.
+
+git remote add origin git@github.com:Pukks31/Prueba_tecnica_practicas.git
+Este comando establece la conexión entre el repositorio local y el remoto.
+
+git push -u origin master
+Este comando sube los cambios desde el repositorio local al repositorio remoto en GitHub.
