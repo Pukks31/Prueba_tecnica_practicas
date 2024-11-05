@@ -35,4 +35,4 @@ El proyecto utiliza las siguientes herramientas y librerías:
   - **mysql-connector-python**: Para la conexión a bases de datos MySQL.
 - **SQL**
   - **phpMyAdmin**: Para la administración de bases de datos.
-  **Power BI**
+- **Power BI**
