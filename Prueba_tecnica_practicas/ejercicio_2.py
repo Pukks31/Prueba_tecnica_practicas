@@ -2,7 +2,6 @@ import pandas as pd
 
 # Creacion de la variable que carga el archivo Excel y la hoja necesaria
 # "C:/Users/mateo/OneDrive/Desktop/PruebaTecnica/Prueba_tecnica_practicas/Redes_Sociales.xlsx" es la ruta en la que esta el EXCEL con los datos que se van a cargar 
-datos = pd.read_excel('C:/Users/mateo/OneDrive/Desktop/PruebaTecnica/Prueba_tecnica_practicas/Redes_Sociales.xlsx')
 # Variable para el dataframe df_casos_bd
 df_casos_bd = pd.read_excel('C:/Users/mateo/OneDrive/Desktop/PruebaTecnica/Prueba_tecnica_practicas/df_casos_bd.xlsx')
 # Variable para la hoja Meta
